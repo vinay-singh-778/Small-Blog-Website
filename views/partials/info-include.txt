@@ -1,0 +1,5 @@
+app.set('view engine','ejs');
+add your partial file(ejs) in views/partials/filename
+
+add this line in yous ejs file to add it as a partial ;
+<%- include('partials/header.ejs') %>
